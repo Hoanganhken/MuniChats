@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.munichats.munichats.Login.Splash"
+    android:background="@drawable/imlogin">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/logo"
+        android:layout_marginTop="78dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/textView5"
+        android:layout_alignEnd="@+id/textView5" />
+
+    <Button
+        android:id="@+id/btnDangnhap"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:textSize="20dp"
+        android:background="@drawable/violet_border"
+        android:layout_marginBottom="33dp"
+        android:layout_above="@+id/btnFacebook"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/btnDangnhap"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:fontFamily="serif"
+        android:text="Đăng Nhập"
+        android:textAllCaps="false"
+        android:textColor="#6D69DF"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/btnFacebook"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:textSize="20dp"
+        android:textColor="@color/violet"
+        android:background="@drawable/button_blue"
+        android:text=""
+        android:layout_marginBottom="65dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btnFacebook"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:text="Facebook"
+        android:textColor="#6D69DF"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="Muni Chats "
+        android:textColor="@color/white"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

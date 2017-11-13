@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="dateSelection">#009688</color>
+    <color name="colorLead">#2196F3</color>x
+    <color name="gray">#E0E0E0</color>
+    <color name="pink">#f26d91</color>
+    <color name="pink_fade">#f4b7c8</color>
+    <color name="violet">#8E24AA</color>
+    <color name="yellow">#FFC107</color>
+    <color name="orange">#FF9800</color>
+    <color name="tab_layout">#2196F3</color>
+    <color name="text_title">#4d4d4d</color>
+    <color name="text_des">#9c9c9c</color>
+    <color name="white">#ffffff</color>
+</resources>
